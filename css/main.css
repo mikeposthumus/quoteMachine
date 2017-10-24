@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+body {
+  font-family: Raleway, sans-serif;
+  background-color: #00897B;
+  color: #00897B;
+}
+
+#quoteBox{
+  border-radius:30px;
+  position: relative;
+  width: 400px;
+  padding: 30px 70px 40px 70px;
+  margin: 10% auto auto auto;
+  background-color: #FFB300;
+}
+
+.quote {
+  font-weight: bold;
+
+}
+
+.author {
+  text-align: right;
+  font-weight: 400i;
+}
+
+.icon {
+  margin: 5px 5px 5px 0px;
+  border: 0px;
+  background-color: white;
+  border-radius: 10px;
+  padding:5px 10px;
+}
+
+.credit {
+  position: relative;
+  margin: 40px auto 0 auto;
+  text-align:center;
+  float: right;
+  width: inherit;
+  color: #FFB300;
+}
+
+#newQuote {
+  float:right;
+  padding:12px;
+  margin-right: 0px;
+  color: inherit;
+}
